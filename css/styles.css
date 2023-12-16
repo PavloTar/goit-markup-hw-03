@@ -6,30 +6,38 @@ body {
   font-weight: 500;
 }
 
+.container {
+  max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .features-header {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11em;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42; 
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .feature-header {
-    font-size: 20px;
-    line-height: 1.2em; 
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color:#2e2f42
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .feature-description {
-    font-weight: 400;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .logo {
@@ -39,7 +47,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:#4d5ae5;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
 
@@ -58,22 +66,24 @@ body {
   letter-spacing: 0.02em;
 }
 
-.menu-item:hover, .menu-item:focus {
-    color: #404bbf;
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.address-item{
-    color: #434455;
-    text-decoration: none;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.address-item {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.address-item:hover, .address-item:focus {
-    color: #404bbf;
+.address-item:hover,
+.address-item:focus {
+  color: #404bbf;
 }
 
 .hero-image {
@@ -93,7 +103,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   line-height: 0.67em;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -101,19 +111,19 @@ body {
 }
 
 .hero-image-button:hover {
-  background-color: #404BBF
+  background-color: #404bbf;
 }
 
 .hero-image-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .our-team {
   background: #f4f4fd;
 }
 
-.team-member{
-  background-color: #FFFFFF
+.team-member {
+  background-color: #ffffff;
 }
 
 .footer {
@@ -124,6 +134,6 @@ body {
 .footer-description {
   font-weight: 400;
   line-height: 1.5;
-  color: #F4F4FD;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
