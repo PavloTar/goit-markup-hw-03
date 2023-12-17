@@ -65,10 +65,12 @@ body {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-header {
@@ -202,12 +204,12 @@ body {
   margin-right: 24px;
 }
 
-.features-list li:last-child {
-  margin-right: 0;
+.features-list li:first-child {
+  flex-basis:calc((100% - 72px) / 4);
 }
 
-.features-item {
-  width: calc((100% - 72px) / 4); 
+.features-list li:last-child {
+  margin-right: 0;
 }
 
 .our-team {
@@ -253,7 +255,7 @@ body {
 
 }
 
-.portfolio-item {
+.portfolio-list li:first-child {
   width: calc((100% - 48px) / 3);
 }
 
