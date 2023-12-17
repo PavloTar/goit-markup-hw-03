@@ -202,11 +202,12 @@ body {
 
 .features-list li {
   margin-right: 24px;
-}
-
-.features-list li:first-child {
   flex-basis: calc((100% - 3 * 24px) / 4); 
 }
+
+/* .features-list li:first-child {
+  flex-basis: calc((100% - 3 * 24px) / 4); 
+} */
 
 .features-list li:last-child {
   margin-right: 0;
@@ -255,7 +256,7 @@ body {
 
 }
 
-.portfolio-list li:first-child {
+.portfolio-list li {
   width: calc((100% - 48px) / 3);
 }
 
